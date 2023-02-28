@@ -15,13 +15,6 @@ export default function handler(request, response) {
     VERCEL_GIT_REPO_ID - ${process.env.VERCEL_GIT_REPO_ID}
     VERCEL_GIT_COMMIT_MESSAGE - ${process.env.VERCEL_GIT_COMMIT_MESSAGE}
     VERCEL_GIT_COMMIT_AUTHOR_NAME - ${process.env.VERCEL_GIT_COMMIT_AUTHOR_NAME}
-    VERCEL_ENV - ${process.env.VERCEL_ENV}
-    VERCEL_ENV - ${process.env.VERCEL_ENV}
-    VERCEL_ENV - ${process.env.VERCEL_ENV}
-    VERCEL_ENV - ${process.env.VERCEL_ENV}
-    VERCEL_ENV - ${process.env.VERCEL_ENV}
-
-    
     `,
   });
 }
