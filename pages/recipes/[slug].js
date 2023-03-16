@@ -5,7 +5,7 @@ import Image from "next/image";
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
   accessToken: process.env.CONTENTFUL_ACCESS_KEY,
-  environment:process.env.CONTENTFUL_ENVIRONMENT
+  environment: process.env.CONTENTFUL_ENVIRONMENT,
 });
 
 export const getStaticPaths = async () => {
@@ -56,6 +56,7 @@ export default function RecipeDetails({ recipe }) {
     <div>
       <div className="banner">
         <Image
+          alt=""
           src={"https:" + featuredImage.fields.file.url}
           width={featuredImage.fields.file.details.image.width}
           height={featuredImage.fields.file.details.image.height}

@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Login from "./Login";
 
 export default function Layout({ children }) {
   return (
     <div className="layout">
       <header>
+        <Login />
         <Link href="/">
           <a>
             <h1>
