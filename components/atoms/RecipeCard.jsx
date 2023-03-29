@@ -8,6 +8,7 @@ export default function RecipeCard({ recipe }) {
     <div className="card">
       <div className="featured">
         <Image
+          alt=""
           src={"https:" + url}
           width={details.image.width}
           height={details.image.height}
