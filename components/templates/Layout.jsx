@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Login from "./Login";
+import Login from "../atoms/Login";
 
 export default function Layout({ children }) {
   return (

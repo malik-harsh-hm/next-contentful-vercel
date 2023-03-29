@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import Layout from "../components/Layout";
+import Layout from "../components/templates/Layout";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 
 function MyApp({ Component, pageProps }) {
